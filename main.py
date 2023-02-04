@@ -127,7 +127,7 @@ def player_animation():
 pygame.init()
 WIDTH, HEIGHT = 800, 400
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("my game")
+pygame.display.set_caption("Pixel Runner")
 clock = pygame.time.Clock()
 test_font = pygame.font.Font('./game_assets/font/Pixeltype.ttf', 50)
 game_active = True
